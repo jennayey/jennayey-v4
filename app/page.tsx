@@ -6,6 +6,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import Link from "next/link";
 export default function Home() {
   return (
     <div className="">
@@ -25,7 +26,11 @@ export default function Home() {
             </p>
           </div>
           <div>
-            <Button variant="default">More about me</Button>
+            <Link href="/about">
+              <Button className="cursor-pointer" variant="default">
+                More about me
+              </Button>
+            </Link>
           </div>
         </div>
         <div className="grid grid-cols-1 gap-4">
@@ -33,12 +38,12 @@ export default function Home() {
           <div className="grid grid-cols-1 gap-4">
             <Sidequest
               title="Siklista Parking PH"
-              description="A community-driven bike parking directory for bike commuters in Metro Manila."
+              description="A community-driven bike parking directory for bike commuters in Metro Manila"
               url="https://siklistaparking.com"
             />
             <Sidequest
               title="Philippine Scripts Translator"
-              description="Laoreet eu dui amet ut sapien sit. Eget ultrices amet at at sed. Tempor gravida orci massa maecenas vitae phasellus justo."
+              description="A web translator for the Philippine Writing Scripts: Baybayin, Hanunoo, Tagbanwa & Buhid"
               url="https://translate.jennayey.com"
             />
           </div>
