@@ -10,7 +10,7 @@ export default function Sidequest({ title, description, url }: Props) {
   return (
     <div className="text-sm border-1 border-dashed border-zinc-700">
       {/* Title card */}
-      <div className="flex justify-between group bg-zinc-800 text-zinc-50 hover:bg-yellow-500 hover:text-zinc-800 hover: p-2">
+      <div className="w-full flex justify-between group bg-zinc-800 text-zinc-50 hover:bg-yellow-500 hover:text-zinc-800 hover: p-2">
         <a
           href={url}
           className="underline group-hover:decoration-zinc-800 decoration-yellow-500 underline-offset-4 "

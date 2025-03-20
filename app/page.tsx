@@ -116,6 +116,13 @@ export default function Home() {
             >
               Bento
             </a>
+            <a
+              href="mailto:hello@jennayey.com"
+              target="_blank"
+              className="hover:text-yellow-500 hover:underline"
+            >
+            Let&apos;s work together
+            </a>
           </div>
         </div>
       </main>

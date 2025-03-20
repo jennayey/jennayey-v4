@@ -9,6 +9,11 @@ import {
 import { AspectRatio } from "@radix-ui/react-aspect-ratio";
 import Image from "next/image";
 import Favorites from "@/components/ui/favorites";
+import cycling from "@/public/cycling.jpg";
+import cycling2 from "@/public/cycling-2.jpg";
+import painting from "@/public/painting-2.jpg";
+
+
 export default function About() {
   return (
     <main>
@@ -25,50 +30,80 @@ export default function About() {
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>
-        <div className="grid grid-cols-1 gap-4">
-          <div className="grid grid-cols-1 gap-2">
-            <div className="w-full grid grid-cols-2 gap-4">
-              <AspectRatio ratio={9 / 16}>
-                <Image
-                  src="https://baconmockup.com/720/1280/"
-                  alt="Image"
-                 fill
-                  className="rounded-md object-cover"
-                />
-              </AspectRatio>
-              <AspectRatio ratio={9 / 16}>
-                <Image
-                  src="https://baconmockup.com/1280/720"
-                  alt="Image"
-                  fill
-                  className="rounded-md object-cover"
-                />
-              </AspectRatio>
-            </div>
-            <p className="text-sm text-zinc-400">
-              Designer, developer and more
-            </p>
-            <p className="text-sm text-zinc-50">
-              Hi, I&rsquo;m Jenna. I&rsquo;m a designer and builder based in
-              Metro Manila, Philippines.
-              <br />
-              <br />
-              Currently, I&rsquo;m building user interfaces and experiences at
-              Tito Solutions. After work, I am usually building my personal side
-              projects, painting with watercolor, cycling outside (sometimes
-              indoors too), or killing{" "}
-              <span className="italic font-semibold">time</span> with{" "}
-              <a
-                href="https://store.steampowered.com/app/1145350/Hades_II/"
-                target="_blank"
-                className="underline text-yellow-500"
-              >
-                Hades II.
-              </a>
-            </p>
+        <div className="hidden md:grid grid-flow-col grid-rows-2 gap-4">
+          <div className="row-span-2 overflow-hidden">
+            <AspectRatio ratio={3 / 4}>
+              <Image
+                src={cycling}
+                alt="Image"
+                fill
+                objectFit="cover"
+                placeholder="blur"
+                className="rounded-md"
+              />
+            </AspectRatio>
+          </div>
+          <div className="col-span-1 overflow-hidden">
+            <AspectRatio ratio={1.59 / 1}>
+              <Image
+                src={cycling2}
+                alt="Image"
+                fill
+                placeholder="blur"
+                objectFit="cover"
+                className="rounded-md"
+              />
+            </AspectRatio>
+          </div>
+          <div className="col-span-1 row-span-1 overflow-hidden">
+            <AspectRatio ratio={1.59 / 1}>
+              <Image
+                src={painting}
+                alt="Image"
+                fill
+                placeholder="blur"
+                objectFit="cover"
+                className="rounded-md"
+              />
+            </AspectRatio>
           </div>
         </div>
 
+        <div className="md:hidden overflow-hidden">
+            <AspectRatio ratio={4/3}>
+              <Image
+                src={cycling}
+                alt="Image"
+                fill
+                placeholder="blur"
+                objectFit="cover"
+                className="rounded-md object-[25%_25%]
+"
+              />
+            </AspectRatio>
+          </div>
+
+        <div className="grid grid-cols-1 gap-4">
+          <p className="text-sm text-zinc-400">Designer, developer and more</p>
+          <p className="text-sm text-zinc-50">
+            Hi, I&rsquo;m Jenna. I&rsquo;m a designer and builder based in Metro
+            Manila, Philippines.
+            <br />
+            <br />
+            Currently, I&rsquo;m building user interfaces and experiences at
+            Tito Solutions. After work, I am usually building my personal side
+            projects, painting with watercolor, cycling outside (sometimes
+            indoors too), or killing{" "}
+            <span className="italic font-semibold">time</span> with{" "}
+            <a
+              href="https://store.steampowered.com/app/1145350/Hades_II/"
+              target="_blank"
+              className="underline text-yellow-500"
+            >
+              Hades II.
+            </a>
+          </p>
+        </div>
         <div className="grid grid-cols-1 gap-4">
           <p className="text-sm text-zinc-400">
             Favorite things (as of Mar 18, 2025)
@@ -112,6 +147,13 @@ export default function About() {
               className="hover:text-yellow-500 hover:underline"
             >
               Bento
+            </a>
+            <a
+              href="mailto:hello@jennayey.com"
+              target="_blank"
+              className="hover:text-yellow-500 hover:underline"
+            >
+            Let&apos;s work together
             </a>
           </div>
         </div>
