@@ -80,7 +80,7 @@ export default function Home() {
             <AccordionItem value="item-3">
               <AccordionTrigger>
                 <div className="w-full grid grid-cols-[150px_1fr_max-content] gap-4">
-                  <span>Web and UI Designer</span>
+                  <span>Illustrator and UI Designer</span>
                   <span>Orangefix Inc.</span>
                   <span className="ml-auto">2019-2022</span>
                 </div>
