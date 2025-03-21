@@ -60,7 +60,7 @@ export default function Home() {
                 </div>
               </AccordionTrigger>
               <AccordionContent>
-                Doing my best in building and desiginng web and mobile digital
+                Doing my best in building and designing web and mobile digital
                 products
               </AccordionContent>
             </AccordionItem>
