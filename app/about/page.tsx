@@ -118,10 +118,10 @@ export default function About() {
             />
             <Favorites category="Controller" item="8bitdo Ultimate Bluetooth" />
             <Favorites category="Video game" item="Hades II" />
-            <Favorites category="Soldering tool" item="Engineer-SS2" />
+            <Favorites category="Tinker Tool" item="Engineer-SS2" />
             <Favorites category="Movie" item="The Breakfast Club" />
             <Favorites category="Sitcom" item="How I Met Your Mother" />
-            <Favorites category="Song" item="Handlebars" />
+            <Favorites category="Song" item="Handlebars" url="https://open.spotify.com/track/08dD8Lk7VUea38YnsMzOP7?si=87defaa507634d54" hasURL />
           </div>
         </div>
         <div className="grid grid-cols-1 gap-4">
