@@ -13,7 +13,6 @@ import cycling from "@/public/cycling.jpg";
 import cycling2 from "@/public/cycling-2.jpg";
 import painting from "@/public/painting-2.jpg";
 
-
 export default function About() {
   return (
     <main>
@@ -70,18 +69,18 @@ export default function About() {
         </div>
 
         <div className="md:hidden overflow-hidden">
-            <AspectRatio ratio={4/3}>
-              <Image
-                src={cycling}
-                alt="Image"
-                fill
-                placeholder="blur"
-                objectFit="cover"
-                className="rounded-md object-[25%_25%]
+          <AspectRatio ratio={4 / 3}>
+            <Image
+              src={cycling}
+              alt="Image"
+              fill
+              placeholder="blur"
+              objectFit="cover"
+              className="rounded-md object-[25%_25%]
 "
-              />
-            </AspectRatio>
-          </div>
+            />
+          </AspectRatio>
+        </div>
 
         <div className="grid grid-cols-1 gap-4">
           <p className="text-sm text-zinc-400">Designer, developer and more</p>
@@ -106,22 +105,27 @@ export default function About() {
         </div>
         <div className="grid grid-cols-1 gap-4">
           <p className="text-sm text-zinc-400">
-            Favorite things (as of Mar 18, 2025)
+            Favorite things (as of May 30, 2025)
           </p>
           <div>
             <Favorites category="Keyboard" item="Pabile P42" />
             <Favorites
-              category="Bike bag"
+              category="Bike thing"
               item="Life Behind Bars - Echelon"
               url="https://lbbjkt.com/products/echelon-s-x21-slate_grey?variant=50677899264284"
               hasURL
             />
             <Favorites category="Controller" item="8bitdo Ultimate Bluetooth" />
             <Favorites category="Video game" item="Hades II" />
-            <Favorites category="Tinker Tool" item="Engineer SS-02" />
+            <Favorites category="Tinker tool" item="Engineer-SS2" />
             <Favorites category="Movie" item="The Breakfast Club" />
-            <Favorites category="Sitcom" item="How I Met Your Mother" />
-            <Favorites category="Song" item="Handlebars" url="https://open.spotify.com/track/08dD8Lk7VUea38YnsMzOP7?si=87defaa507634d54" hasURL />
+            <Favorites category="Sitcom" item="Derry Girls" />
+            <Favorites
+              category="Song"
+              item="Messy (from F1 The Movie)"
+              url="https://open.spotify.com/track/6Wobsw9uZ0D0xkfOjxXSq9?si=dab3d0af65074a46"
+              hasURL
+            />
           </div>
         </div>
         <div className="grid grid-cols-1 gap-4">
@@ -153,7 +157,7 @@ export default function About() {
               target="_blank"
               className="hover:text-yellow-500 hover:underline"
             >
-            Let&apos;s work together
+              Let&apos;s work together
             </a>
           </div>
         </div>
