@@ -56,7 +56,7 @@ export default function Home() {
                 <div className="w-full grid grid-cols-[150px_1fr_min-content] gap-4">
                   <span>UX/UI Designer</span>
                   <span>Tito Solutions</span>
-                  <span className="ml-auto">Today</span>
+                  <span className="ml-auto">Now</span>
                 </div>
               </AccordionTrigger>
               <AccordionContent>
@@ -109,13 +109,7 @@ export default function Home() {
             >
               LinkedIn
             </a>
-            <a
-              href="https://bento.me/jennayey"
-              target="_blank"
-              className="hover:text-yellow-500 hover:underline"
-            >
-              Bento
-            </a>
+          
             <a
               href="mailto:hello@jennayey.com"
               target="_blank"

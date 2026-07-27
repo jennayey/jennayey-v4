@@ -91,7 +91,7 @@ export default function About() {
             <br />
             Currently, I&rsquo;m building user interfaces and experiences at
             Tito Solutions. After work, I am usually building my personal side
-            projects, painting with watercolor, cycling outside (sometimes
+            projects, painting with watercolor, training for a marathon, cycling outside (sometimes
             indoors too), or killing{" "}
             <span className="italic font-semibold">time</span> with{" "}
             <a
@@ -105,10 +105,10 @@ export default function About() {
         </div>
         <div className="grid grid-cols-1 gap-4">
           <p className="text-sm text-zinc-400">
-            Favorite things (as of May 30, 2025)
+            Favorite things (as of July 27, 2026)
           </p>
           <div>
-            <Favorites category="Keyboard" item="Pabile P42" />
+            <Favorites category="Keyboard" item="36-key Corne Split Keyboard" />
             <Favorites
               category="Bike thing"
               item="Life Behind Bars - Echelon"
@@ -116,15 +116,19 @@ export default function About() {
               hasURL
             />
             <Favorites category="Controller" item="8bitdo Ultimate Bluetooth" />
-            <Favorites category="Video game" item="Hades II" />
+            <Favorites category="Video game" item="Hades II" url="https://store.steampowered.com/app/1145350/Hades_II/" hasURL />
             <Favorites category="Tinker tool" item="Engineer-SS2" />
             <Favorites category="Movie" item="The Breakfast Club" />
             <Favorites category="Sitcom" item="Derry Girls" />
             <Favorites
               category="Song"
-              item="Messy (from F1 The Movie)"
-              url="https://open.spotify.com/track/6Wobsw9uZ0D0xkfOjxXSq9?si=dab3d0af65074a46"
+              item="Prettiest Thing I've Ever Seen by LANY"
+              url="https://open.spotify.com/track/5f9Nt75lq1MLzf5F2xJwTI?si=793f4376cc164c72"
               hasURL
+            />
+             <Favorites
+              category="Running shoe"
+              item="Adizero Adios Pro 9"
             />
           </div>
         </div>
@@ -144,13 +148,6 @@ export default function About() {
               className="hover:text-yellow-500 hover:underline"
             >
               LinkedIn
-            </a>
-            <a
-              href="https://bento.me/jennayey"
-              target="_blank"
-              className="hover:text-yellow-500 hover:underline"
-            >
-              Bento
             </a>
             <a
               href="mailto:hello@jennayey.com"
