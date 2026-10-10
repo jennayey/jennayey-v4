@@ -20,9 +20,8 @@ export default function Home() {
               Designer, developer and more
             </p>
             <p className="text-sm text-zinc-50">
-              I’m a pixel-nudger in Figma by day. Amateur developer and gamer by
-              night. And when I want to take a break from screens, I enjoy
-              cycling around and overtaking cars in traffic.
+              I’m a pixel and AI-nudger most of the time. And when I want to take a break from screens, I either <span className="italic">convince</span> people into running, or
+             I bike around and overtake cars in traffic.
             </p>
           </div>
           <div>
@@ -54,7 +53,7 @@ export default function Home() {
             <AccordionItem value="item-1">
               <AccordionTrigger>
                 <div className="w-full grid grid-cols-[150px_1fr_min-content] gap-4">
-                  <span>UX/UI Designer</span>
+                  <span>Web Marketing Lead</span>
                   <span>Tito Solutions</span>
                   <span className="ml-auto">Now</span>
                 </div>
@@ -115,7 +114,7 @@ export default function Home() {
               target="_blank"
               className="hover:text-yellow-500 hover:underline"
             >
-            Let&apos;s work together
+            Let's work together
             </a>
           </div>
         </div>

@@ -122,13 +122,13 @@ export default function About() {
             <Favorites category="Sitcom" item="Derry Girls" />
             <Favorites
               category="Song"
-              item="Prettiest Thing I've Ever Seen by LANY"
-              url="https://open.spotify.com/track/5f9Nt75lq1MLzf5F2xJwTI?si=793f4376cc164c72"
+              item="Dead Inside"
+              url="https://open.spotify.com/track/2mle4atoY4qjRBpVgAUhdG?si=4240475c3ffa4cf9"
               hasURL
             />
              <Favorites
               category="Running shoe"
-              item="Adizero Adios Pro 9"
+              item="Adizero Adios 9"
             />
           </div>
         </div>
