@@ -55,7 +55,7 @@ export default function StatusClock() {
   return (
     <div className="flex justify-between gap-2 text-sm text-zinc-400 my-4 mb-8 ">
       
-      <p className="flex items-center px-3 pb-2 pt-1.5 gap-1.5 border-zinc-700 bg-zinc-800 border rounded-full">
+      <p className="flex items-center px-3 py-2 gap-1.5 border-zinc-700 bg-zinc-800 border rounded-full">
         <span
           aria-hidden
           style={{
