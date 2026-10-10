@@ -105,7 +105,7 @@ export default function About() {
         </div>
         <div className="grid grid-cols-1 gap-4">
           <p className="text-sm text-zinc-400">
-            Favorite things (as of July 27, 2026)
+            Favorite things (as of Oct 11, 2026)
           </p>
           <div>
             <Favorites category="Keyboard" item="36-key Corne Split Keyboard" />

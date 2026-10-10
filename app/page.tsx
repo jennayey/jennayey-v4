@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Sidequest from "@/components/ui/sidequestCard";
+import StatusClock from "@/components/statusClock";
 import {
   Accordion,
   AccordionContent,
@@ -10,6 +11,8 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="">
+                           <StatusClock />
+
       <main className="grid grid-cols-1 gap-8">
         <div className="grid grid-cols-1 gap-4">
           <div className="grid grid-cols-1 gap-2">
@@ -32,6 +35,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
+
         <div className="grid grid-cols-1 gap-4">
           <p className="text-sm text-zinc-400">Personal side-quests</p>
           <div className="grid grid-cols-1 gap-4">
@@ -123,3 +127,6 @@ export default function Home() {
     </div>
   );
 }
+
+
+
